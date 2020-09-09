@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #66BFBF;
+  font-size: 5.625rem;
+  font-family: 'Pacifico', cursive;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+  color: #11999E;
+  font-family: 'Fira Sans', sans-serif;
+}
+hr{
+  border-style: none;
+  border-top: dotted 8px #EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  color: #40514E;
+  padding-bottom: 1.5rem;
+  line-height: 2;
+}
+/*Classes*/
+.top-container {
+  background-color: #EAF6F6;
+  padding: 20px;
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container{
+  padding: 20px;
+  padding-top: 100px;
+  position: relative;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 20px;
+  padding-top: 50px;
+  position: relative;
+}
+.pro{
+  text-decoration: underline;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 25%;
+  margin: 40px auto 60px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+}
+.profile-pic{
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+}
+.prob-solv{
+  width:10%;
+  float: left;
+  margin-right: 30px;
+}
+.teamwork{
+  width:15%;
+  float: right;
+  margin-left: 30px;
+}
+.programmer{
+  font-weight: normal;
+  line-height: 2;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.bottom-text{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.footer-link{
+  text-decoration:none;
+  padding: 2rem;
+}
+.BUTTON_RHQ {
+  background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #488585);
+    background-image: -moz-linear-gradient(top, #66BFBF, #488585);
+    background-image: -ms-linear-gradient(top, #66BFBF, #488585);
+    background-image: -o-linear-gradient(top, #66BFBF, #488585);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#66BFBF), to(#488585));
+    background-image: linear-gradient(to bottom, #66BFBF, #488585);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    padding: 7px;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.BUTTON_RHQ:hover {
+  background: #8AF9F9;
+  background-image: -webkit-linear-gradient(top, #8AF9F9, #64B4B4);
+  background-image: -moz-linear-gradient(top, #8AF9F9, #64B4B4);
+  background-image: -ms-linear-gradient(top, #8AF9F9, #64B4B4);
+  background-image: -o-linear-gradient(top, #8AF9F9, #64B4B4);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8AF9F9), to(#64B4B4));
+  background-image: linear-gradient(to bottom, #8AF9F9, #64B4B4);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
